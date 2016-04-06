@@ -70,7 +70,7 @@ class RIMDslGeneratorSwagger implements IGenerator {
    		  {
    		  "method": "«method»",
    		  "nickname": "«IF state != null»«state.name»«ENDIF»",
-   		  "summary": "«IF state != null»«state.description»«ENDIF»" 
+   		  "description": "«IF state != null»«state.description»«ENDIF»" 
    		  }
         «ENDFOR»
 	    ]

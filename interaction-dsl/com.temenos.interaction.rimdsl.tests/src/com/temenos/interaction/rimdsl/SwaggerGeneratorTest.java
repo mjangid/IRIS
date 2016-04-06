@@ -101,7 +101,7 @@ public class SwaggerGeneratorTest {
 	"{" + LINE_SEP +
 	"\"method\": \"GET\"," + LINE_SEP +
 	"\"nickname\": \"A\"," + LINE_SEP +
-	"\"summary\": \"/A description\" " + LINE_SEP +
+	"\"description\": \"/A description\" " + LINE_SEP +
 	"}" + LINE_SEP +
 	"]" + LINE_SEP +
 	"}," + LINE_SEP +
@@ -111,12 +111,12 @@ public class SwaggerGeneratorTest {
 	"{" + LINE_SEP +
 	"\"method\": \"POST\"," + LINE_SEP +
 	"\"nickname\": \"B\"," + LINE_SEP +
-	"\"summary\": \"/B description\" " + LINE_SEP +
+	"\"description\": \"/B description\" " + LINE_SEP +
 	"}," + LINE_SEP +
 	"{" + LINE_SEP +
 	"\"method\": \"GET\"," + LINE_SEP +
 	"\"nickname\": \"B\"," + LINE_SEP +
-	"\"summary\": \"/B description\" " + LINE_SEP +
+	"\"description\": \"/B description\" " + LINE_SEP +
 	"}" + LINE_SEP +
 	"]" + LINE_SEP +
 	"}" + LINE_SEP +
